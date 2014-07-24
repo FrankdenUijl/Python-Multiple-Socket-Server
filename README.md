@@ -23,8 +23,8 @@ Add in Client.py in function client_functions your own game/chat logic
 ``` python
 
 def client_functions(self, msg_obj):
-		if msg_obj['t'] == 0: #example login
-			msg_obj['c'] #game or chatroom logic here
+		if msg_obj['t'] == 0: #so we get hello world
+			msg_obj['c']['message'] #Hello world
 
 ```
 
