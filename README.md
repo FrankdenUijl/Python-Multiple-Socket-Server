@@ -37,7 +37,7 @@ sock, err = socket.connect( server,  port )
 
 --first you need to send a handshake so the server accept you, check settings.ini
 c = {
-	hsid = handshake -- cb72d33a-15f2-4fdd-b0a9-f30313cb910a
+	hsid = handshake -- cb72d33b-15f2-4fdd-b0a9-f30313cb911a
 }
 sock:send( '{"t" : 0, "c" : '..json.encode(c)..'}\0'  ) --t is type of message, 0 is handshake
 
